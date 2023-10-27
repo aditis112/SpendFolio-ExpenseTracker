@@ -1,0 +1,32 @@
+    /* Adjust the layout of the form and image */
+    .container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .col-5 {
+        flex: 1;
+        margin-right: 20px; /* Add some space between the form and the image */
+    }
+
+    .col-sm {
+        flex: 1;
+    }
+
+    /* Center the form contents */
+    .card {
+        text-align: center;
+    }
+
+    /* Style the image */
+    img {
+        max-width: 100%;
+        height: auto;
+        display: block; /* Center the image horizontally */
+        margin: 0 auto;
+    }
+
+    /* Additional styles if needed */
+    /* .bg-text {
+        background-color: #your-color;
+    } */
